@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>beauty</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- 1、头部区域开始啦 -->
+	<div class="header w">
+		<!-- logo部分 -->
+		<div class="logo">
+			<img src="images/logo.png" alt="">
+		</div>
+		<!-- 导航栏部分nav -->
+		<div class="nav">
+			<ul>
+				<!-- 链接本就是行内元素 所以本就在一行 -->
+				<!-- 要加浮动应该给li加浮动 -->
+				<!-- 原因：li是列表 让其在一列 -->
+
+				<!-- 文字个数不一样 不一样 只好给高度 不好给宽度 -->
+				<!-- 解决办法可以用padding撑开盒子 -->
+				<li><a href="#">首页</a></li>
+				<li><a href="#">教程</a></li>
+				<li><a href="#">美化</a></li>
+			</ul>
+		</div>
+		<!-- 搜索模块 -->
+		<div class="search">
+			<input type="text" value="输入关键词">
+			<button>搜索</button>
+		</div>
+		<div class="user">
+			<img src="images/lady.jpg" alt="" style="vertical-align: middle;">
+			<!-- vertical-align：middle实现垂直居中对其 -->
+			qq-lady
+		</div>
+	</div>
+	<!-- 头部区域结束啦 -->
+	<!-- 2、banner部分start -->
+	<div class="banner">
+		<!-- 版心 -->
+		<div class="w">
+			<div class="subnav">
+				<ul>
+					<!-- a最好不要堆在一起 用li隔开 -->
+					<!-- 最好地做法：ul包含li里面包含文字 -->
+
+					<!-- &lt——<小于符号 -->
+					<!-- &gt——>大于符号 -->
+					<li><a href="#diet">饮食计划<span>></span></a></li>
+					<li><a href="#sports">运动计划<span>></span></a></li>
+
+					<li><a href="#trait">美女特质<span>></span></a></li>
+					<li><a href="#test">美女检测<span>></span></a></li>
+					<li><a href="#joke">美女子&女神经<span>></span></li>
+					<li><a href="#cute">乖乖女&小野猫<span>></span></li>
+					<li><a href="#success">成功案例<span>></span></a></li>
+					<li><a href="#detail">详细<span>></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- banner部分end -->
+	<!-- 3、box核心部分start -->
+	<div class="goods w">
+		<div id="diet">
+			<h3>饮食计划</h3>
+			<img src="./images/fat2.jpg" alt="">
+			<div class="text">
+				<p>一顾倾人城,再顾倾人国,肤若美瓷,唇若樱花,明眸皓齿,亭亭玉立,杨柳细腰,增之一分则太长，减之一分则太短；施朱则太红，着粉则太白。所谓美女，应以花为貌，以鸟为声，以月为神，以玉为骨，以冰雪为肤，以秋水为姿，以诗词为心。
+					绣幕芙蓉一笑开， 斜偎宝鸭亲香腮， 眼波才动被人猜。</p>
+			</div>
+		</div>
+		<div id="sports">
+			<h3>运动计划</h3>
+			<img src="./images/sports.jpg" alt="">
+			<div class="text">
+				<p>每天起床第一句，先给自己打个气；每次多吃一粒米，都要说声对不起；魔镜魔镜看看我，我的锁骨在哪里；美丽，我要美丽，我要变成万人迷；为了变成小蛮腰，天天提着一口气；为了穿上比基尼，吃草吃成沙拉精；天生丽质难自弃，可惜吃啥我都不腻；努力，我要努力，我要变成万人迷；燃烧我的卡路里！
+				</p>
+			</div>
+		</div>
+		<div id="trait">
+			<h3>美女特质</h3>
+			<img src="./images/girl2.jpg" alt="">
+			<div class="text">
+				<p>西施越溪女，出自苎萝山。
+
+					秀色掩今古，荷花羞玉颜。
+
+					浣纱弄碧水，自与清波闲。
+
+					皓齿信难开，沉吟碧云间。</p>
+				<p>北方有佳人。绝世而独立。
+
+					一顾倾人城。再顾倾人国。
+
+					宁不知倾城与倾国。佳人难再得。</p>
+				<p>云想衣裳花想容，春风拂槛露华浓。
+
+					若非群玉山头见，会向瑶台月下逢。</p>
+			</div>
+		</div>
+		<div id="test">
+			<h3>美女检测</h3>
+			<img src="./images/think.jpg" alt="">
+			<div class="text">
+				<p>思考什么样的人才有潜力做美女呢？她必然是勇敢，自信，无畏。她可以活出自我，能把自己的人生活得精彩，活成她想要的样子。身边有人时她可以共同前行，身边无人时，她照样可以大步向前。
+				</p>
+			</div>
+		</div>
+		<div id="joke">
+			<h3>美女子&女神经</h3>
+			<img src="./images/crazy3.jpg" alt="">
+			<div class="text">
+				<p>你以为的女神经是这样，恐怖搞笑，给人一种摸不着头脑的感觉，但实际上谁不是给自己的外表来一层包装，你以为就是这样么？然而，她在你不所知的时候是一个温柔十足的美女绝绝子。</p>
+				<p>人呀，看世间万物，得带有辩证性的眼光与思维去看待，万物皆可变，万物皆可辩。</p>
+			</div>
+		</div>
+		<div id="cute">
+			<h3>乖乖女&小野猫</h3>
+			<img src="./images/cute.jpg" alt="">
+			<div class="text">
+				<p>外表长得一副乖乖女的样子，内心住着一个小野猫，但不管怎样，只要热爱生活，都是最美的女生。愿你既有着乖乖女的乖巧懂事，又有着小野猫的傲慢不逊，你在那人丛中总是那么的耀眼。
+				</p>
+				<p>夜空中最亮的星 能否听清
+					那仰望的人 心底的孤独和叹息
+					夜空中最亮的星 能否记起
+					曾与我同行 消失在风里的身影
+					我祈祷拥有一颗透明的心灵
+					和会流泪的眼睛</p>
+			</div>
+		</div>
+		<div id="success">
+			<h3>成功案例</h3>
+			<img src="./images/lady.jpg" alt="">
+			<div class="text">
+				<p>恭喜你进入最后关卡，所谓成功案例，这不就是你嘛！以上条条框框，要求如此苛刻，你若都坚持下来，这不就已经成功了！所谓美女很easy，但又不是谁都能是美女，你说是不是呢？My beauty，向前冲吧！
+				</p>
+				<p>向前跑 迎着冷眼和嘲笑
+
+					生命的广阔不历经磨难怎能感到
+
+					命运它无法让我们跪地求饶</p>
+
+			</div>
+		</div>
+	</div>
+	<!-- box核心部分end -->
+	<!-- 4、footer部分start -->
+	<div class="footer">
+		<div class="w">
+			<div class="copyright">
+				<div class="logo">
+					<img src="images/logo.png" alt="">
+				</div>
+				<div class="text">
+					<p>beauty成立于1988，成立老总马睿睿plus，致力美女云集，美好常在哈哈哈哈哈哈<br>
+						© 2022年XTCG Inc.保留所有权利。-渝ICP备1865231号</p>
+				</div>
+				<a href="#" class="app">报告总结</a>
+			</div>
+			<div class="links">
+				<dl>
+					<dt>关于美丽网</dt>
+					<dd><a href="#">关于</a></dd>
+					<dd><a href="#">帮助</a></dd>
+					<dd><a href="#">管理团队</a></dd>
+					<dd><a href="#">工作机会</a></dd>
+					<dd><a href="#">客户服务</a></dd>
+				</dl>
+				<dl>
+					<dt>新手指南</dt>
+					<dd><a href="#">如何注册</a></dd>
+					<dd><a href="#">如何选课</a></dd>
+					<dd><a href="#">美分是什么</a></dd>
+					<dd><a href="#">如何拿到美丽证</a></dd>
+					<dd><a href="#">美丽未通过怎么办</a></dd>
+				</dl>
+				<dl>
+					<dt class="last">合作伙伴</dt>
+					<dd><a href="#">合作机构</a></dd>
+					<dd><a href="#">合作美长</a></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<!-- footer部分end -->
+</body>
+
+</html>
