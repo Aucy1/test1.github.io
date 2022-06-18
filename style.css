@@ -308,6 +308,7 @@ input {
 	line-height: 36px;
 	color: #dc79a4;
 	border: 1px solid #dc79a4;
+	margin-left: 20px;
 }
 .links dl {
 	float: left;
